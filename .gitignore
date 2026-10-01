@@ -1,0 +1,57 @@
+# Build trees
+/build/
+/build-*/
+/out/
+/install/
+/prefix/
+cmake-build-*/
+CMakeUserPresets.json
+
+# Visual Studio / MSBuild
+.vs/
+*.user
+*.suo
+*.sln
+*.vcxproj
+*.vcxproj.filters
+
+# CMake generated
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+_deps/
+*.cmake.stamp
+
+# Objects / binaries / libraries
+*.obj
+*.o
+*.a
+*.lib
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.exp
+*.idb
+
+# Runtime artifacts
+*.pfm
+*.pfm.tmp
+*.staging
+*.log
+*.dmp
+*.mdmp
+core
+crash-*/
+
+# Sanitizer artifacts
+*.asan*
+asan-*/
+
+# Editor / tooling
+.vscode/
+.idea/
+*.swp
+*~
