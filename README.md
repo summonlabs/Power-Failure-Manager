@@ -444,7 +444,7 @@ Six test binaries run plainly, with no timeout mechanism of any kind:
   device was actuated.
 * **UNSUPPORTED** — there is no hardware validation of any kind: no real
   electrical equipment, no real meter or sensor, no real BMS/DCIM integration,
-  and no real interconnect with a Feed Authority, Power Control Plane,
+  and no real interconnect with a [Feed Authority](https://github.com/summonlabs/Feed-Authority), [Power Control Plane](https://github.com/summonlabs/Power-Control-Plane),
   PDU/UPS/Generator Control, Load Shedding, Power Capacity, Incident State
   Fabric, or Facility Failure Domain Registry implementation. Timing behaviour
   against a physical plant is therefore unproven here.
