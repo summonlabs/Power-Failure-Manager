@@ -1,7 +1,6 @@
 # Power Failure Manager
 
-Power Failure Manager (PFM) is repository 53 of the Data Center Control Plane
-(DCCP) program. It owns facility electrical-failure coordination: the
+Power Failure Manager (PFM) owns facility electrical-failure coordination: the
 authoritative failure state during a feed, switchgear, PDU, UPS, generator, or
 circuit failure, the affected scope that failure implies, the isolation and
 protection requirements that must hold, the bounded requests that may be sent to
